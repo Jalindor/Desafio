@@ -1,0 +1,136 @@
+body{
+    background-color: #E9ECF8;
+    width: 1080px;
+    height: 900px;
+}
+
+header {
+    margin: 5px 20px;
+    position: absolute;
+}
+
+.logo{
+    position: absolute; 
+    margin: 40px 40px;
+}
+
+.texto{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 900px;
+    height: 500px; 
+    padding: 10px 5px;
+    font-size: 32px; 
+    border: none;
+    color:  #0A3871;
+    background-color: #E9ECF8;
+    resize: none;
+    outline: none;
+    text-transform: lowercase;
+}
+.texto::placeholder{
+    color:  #0A3871;
+   
+}
+
+.encriptado{
+    position: absolute ;
+    margin: 40px 0 40px 75%;
+    height: 90vh;
+    width: 400px;
+    margin-top: 40px;
+    background-color: white;
+    text-align: center;
+    font-family: Inter;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px #00000057;
+
+}
+#text_output{
+    height: 70vh;
+    width: 350px;
+    margin: 25px; 
+    display: none;
+    border: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: #495057;
+    text-align: left;
+    resize: none;
+    outline: none; 
+    
+}
+#button_copy{
+    
+    display: none;
+}
+.encriptado h2{
+    padding: 32px 32px 16px 32px;
+    color:#343A40;
+    font-weight: bold;
+    font-size: 28px;
+    
+}
+
+.encriptado p{
+    font-size: 22px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    padding-right: 40px;
+    padding-left: 45px;
+}
+.muñeco{
+    padding-top: 175px;
+}
+
+.material-icons{
+    position: absolute;
+    margin-top: 709px;
+    margin-left: 23.5%;
+    opacity: 80%;
+}
+.mensaje{
+    position: absolute;
+    margin-top: 714px;
+    margin-left: 25%;
+    font-family: Inter;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    opacity: 80%;
+
+}
+.Button{
+    position: absolute;
+    margin-top: 730px;
+    margin-left: 22%;
+}
+.Btn{
+    width: 316px;
+    height: 67px;
+    margin: 12px;
+    border-radius: 24px;
+    font-size: 25px;
+    border-color: #082d5a;
+    transition: 0.2s;
+}
+#Btn_Encriptador{
+    background-color: #0A3871;
+    color: white;
+}
+#Btn_Desencriptado{
+    background-color: #D8DFE8;
+    color: #0A3871;
+}
+
+.Btn:hover{
+    opacity: 0.75;
+    cursor: pointer;
+    border: solid 1px;
+}

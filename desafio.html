@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/desafio.css">
+    <title>Encriptador</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo" >
+        </div>
+    </header>
+
+    <section>
+
+        <textarea name="texto" id="text_input" cols="30" rows="10" class="texto" placeholder="Ingrese su texto aqui"></textarea>
+
+        <div class="encriptado">
+
+            <textarea name="encriptado" id="text_output" cols="30" rows="10" ></textarea>
+            <button class="Btn" id="button_copy">Copiar</button>
+
+            <div id="void">
+                <img src="img/Muñeco.png" alt="muñeco" class="muñeco">
+                <h2>Ningun mensaje fue encontrado</h2>
+                <p>Ingrese texto que desees encriptar o desencriptar</p>
+            </div>
+
+        </div>
+
+        <i class="material-icons">error</i>
+        <p class="mensaje"> Solo letras minusculas y sin acentos</p>
+        
+        <div class="Button">
+            <button class="Btn" id="Btn_Encriptador" onclick="demoDisplay()" value="Oculta el contenido de la div void">Encriptar!</button>
+            <button class="Btn" id="Btn_Desencriptado">Desencriptar!</button>
+        </div>
+
+    </section>
+
+    <script type="text/javascript" src="/script/script.js"></script>
+
+</body>
+
+</html>
